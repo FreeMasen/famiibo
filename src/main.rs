@@ -1,4 +1,4 @@
-use serde::{Deserialize, Serialize};
+use serde::Serialize;
 use std::path::PathBuf;
 use std::process::{Command, Output};
 use warp::{Filter, Reply};
@@ -79,17 +79,4 @@ struct CmdFailed {
     std_err: String,
     std_out: String,
     status: Option<i32>,
-}
-#[derive(Debug, Deserialize)]
-struct VillagerName {
-    name: String,
-}
-#[derive(Debug)]
-struct Villager {
-    name: String,
-    birthday: String,
-    gender: String,
-    personality: String,
-    image_url: String,
-    species: String,
 }
