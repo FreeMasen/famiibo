@@ -193,13 +193,14 @@
      * @param {Event} ev 
      */
     async function write_clicked(ev) {
+        set_all_buttons_disabled(true);
         let btn = ev.currentTarget;
-        let row = btn.parentElement.parentElement;
+        let row = btn.parentElement.parentElement.parentElement;
         let name = row.dataset.name;
-        let reply = await fetch(`/write/${name}`, {
-            method: 'POST',
-        });
         try {
+            let reply = await fetch(`/write/${name}`, {
+                method: 'POST',
+            });
             if (reply.status === 200) {
                 set_message(`Successfully wrote amiibo for ${name} to NFC chip`);
             } else {
@@ -210,6 +211,21 @@
         } catch (err) {
             set_message(`Failed to write amiibo for ${name}`);
             console.error(err);
+        } finally {
+            set_all_buttons_disabled(false);
+        }
+    }
+    function set_all_buttons_disabled(disabled) {
+        let buttons = document.querySelectorAll('.write-button');
+        for (let i = 0; i < buttons.length; i++) {
+            let button = buttons[i];
+            if (disabled) {
+                button.setAttribute('disabled', '');
+                button.classList.add('disabled');
+            } else {
+                button.removeAttribute('disabled');
+                button.classList.remove('disabled');
+            }
         }
     }
     function set_message(msg, err) {

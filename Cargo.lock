@@ -13,6 +13,7 @@ dependencies = [
 name = "amiibo"
 version = "0.1.0"
 dependencies = [
+ "lazy_static",
  "pretty_env_logger",
  "serde",
  "tokio",

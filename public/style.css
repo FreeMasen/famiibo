@@ -1,10 +1,16 @@
+* {
+  font-family: sans-serif;
+}
+
 table {
-  background: lightgrey;
-  border-radius: 5px;
+  color: white;
+  background: goldenrod;
   border-collapse: collapse;
   width: 500px;
   margin: auto;
   margin-top: 10px;
+  box-shadow: 0 0 9px 4px teal;
+  border-radius: 15px;
 }
 
 thead {
@@ -13,10 +19,21 @@ thead {
 
 tbody {
   padding: 5px;
+  border-top: 1px solid white;
 }
 
-td {
-  border: 2px solid white;
+thead > tr {
+  height: 50px;
+}
+
+thead > tr input,
+thead > tr select {
+  font-size: 16pt;
+  max-width: 100px;
+}
+
+tr + tr {
+  border-top: 1px solid white;
 }
 
 td > div {
@@ -44,12 +61,34 @@ tr.hidden {
   align-items: center;
 }
 
-.cell-name > button {
+.write-button {
   height: 35px;
   margin-right: 5px;
+  margin-top: 5px;
   border: 0;
   color: white;
   background: teal;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+  width: 90px;
+  border-radius: 25px;
+}
+
+.write-button:active {
+  box-shadow: 0;
+  transform: translate(1px, 1px);
+}
+
+.write-button.disabled {
+  background-color: darkslategrey;
+}
+
+.write-button.disabled:active {
+  transform: unset;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.cell-name img {
+  margin-bottom: 5px;
 }
 
 td {

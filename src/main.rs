@@ -24,7 +24,7 @@ fn write_nfc(name: &str) -> impl Reply {
         return response(&Response::NotFound, StatusCode::NOT_FOUND);
     }
     let mut cmd = Command::new("pimiibo");
-    cmd.arg("key_retail.bin").arg(path);
+    cmd.arg("public/key_retail.bin").arg(path);
 
     let child = match cmd.spawn() {
         Ok(child) => child,

@@ -4,7 +4,10 @@ const path = require('path');
 let html = `<!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" type="text/css" />
+        <title>Famiibo</title>
     </head>
     <body>
         <div id="message">
@@ -165,10 +168,10 @@ function row_for_villager(villager) {
         <div>
             <img src="${villager.image_url}" class="villager-picture" />
             <span class="villager-name">${villager.name}</span>
+            <button class="write-button">Write</button>
         </div>
-        <button class="write-button">Write</button>
     </td>
-    <td align="center" class="cell-gender">${villager.gender}</td>
+    <td align="center" class="cell-gender">${gender}</td>
     <td align="center" class="cell-personality">${villager.personality}</td>
     <td align="center" class="cell-species">${villager.species}</td>
     <td align="center" class="cell-birthday">${villager.birthday}</td>
