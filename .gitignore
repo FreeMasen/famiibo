@@ -7,17 +7,17 @@
 
 #/target
 /Amiibo Bin Dump
-node_modules
+/node_modules
 /villagers
 Villager list (New Horizons) | Animal Crossing Wiki | Fandom_files
-download_nh_images.js
-index.js
-package.json
-package-lock.json
-pimiibo
-prep_files-ac.js
-Villager list-pre.json
-index.html
+/download_nh_images.js
+/index.js
+/package.json
+/package-lock.json
+/pimiibo
+/prep_files-ac.js
+/Villager list-pre.json
+/index.html
 /images
 /public/images/*
 /public/villagers/*
