@@ -1,0 +1,67 @@
+table {
+  background: lightgrey;
+  border-radius: 5px;
+  border-collapse: collapse;
+  width: 500px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+thead {
+  padding: 5px;
+}
+
+tbody {
+  padding: 5px;
+}
+
+td {
+  border: 2px solid white;
+}
+
+td > div {
+  padding: 5px;
+}
+
+td > div > img {
+  border-radius: 15px;
+}
+
+tr > td.cell-name {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+tr.hidden {
+  display: none;
+}
+
+.cell-name > div {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell-name > button {
+  height: 35px;
+  margin-right: 5px;
+  border: 0;
+  color: white;
+  background: teal;
+}
+
+td {
+  text-align: enter;
+}
+
+#message {
+  width: 100%;
+  text-align: center;
+  height: 25px;
+}
+
+#message.error {
+  color: red;
+}
