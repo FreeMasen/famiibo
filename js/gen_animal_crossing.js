@@ -1,17 +1,8 @@
 const fs = require('fs').promises;
 const path = require('path');
+const prefix = require('./prefix.js');
 
-let html = `<!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css" type="text/css" />
-        <title>Famiibo</title>
-    </head>
-    <body>
-        <div id="message">
-        </div>
+let html = `${prefix.html(['style/acnh.css'])}
         <table>
             <thead>
                 <tr>
@@ -140,17 +131,25 @@ let html = `<!DOCTYPE html>
             </thead>
             <tbody>
     `;
-async function main() {
-    const json = await fs.readFile('villager_list.json', 'utf-8');
+
+async function generate_page(base_path) {
+    const json = await fs.readFile(path.join(__dirname, 'villager_list.json'), 'utf-8');
     const villagers = JSON.parse(json);
     for (const villager of villagers) {
         html += row_for_villager(villager)
     }
-    html += `<script type="text/javascript" src="amiibo.js"></script>
-        </tbody>
+    html += `
+            </tbody>
+        </table>
+        <script type="text/javascript" src="shared.js"></script>
+        <script type="text/javascript" src="acnh.js"></script>
     </body>
 </html>`;
-    await fs.writeFile(path.join('public', 'index.html'), html);
+    const dir = path.join(base_path, 'acnh');
+    if (!(await fs.access(dir).then(() => true).catch(() => false))) {
+        await fs.mkdir(dir);
+    }
+    await fs.writeFile(path.join(dir, 'index.html'), html);
 }
 
 function row_for_villager(villager) {
@@ -168,7 +167,7 @@ function row_for_villager(villager) {
         <div>
             <img src="${villager.image_url}" class="villager-picture" />
             <span class="villager-name">${villager.name}</span>
-            <button class="write-button">Write</button>
+            <button data-url="write/acnh/${villager.name}" class="write-button">Write</button>
         </div>
     </td>
     <td align="center" class="cell-gender">${gender}</td>
@@ -187,6 +186,5 @@ function get_birthday(dt) {
     }
 }
 
-main()
-    .then(console.log)
-    .catch(e => console.error('err: ', e));
+
+module.exports.generate_page = generate_page;

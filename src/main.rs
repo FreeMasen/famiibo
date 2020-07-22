@@ -8,18 +8,22 @@ async fn main() {
     pretty_env_logger::init();
     let files = warp::fs::dir("public");
     let execute = warp::post()
-        .and(warp::path!("write" / String))
-        .map(|villager: String| {
-            write_nfc(&villager)
-        });
+        .and(warp::path!("write" / String / String))
+        .map(|set: String, bin: String| write_nfc(&set, &bin));
     warp::serve(files.or(execute).with(warp::log("amiibo")))
-        .run(([0,0,0,0],80)).await;
+        .run(([0, 0, 0, 0], 80))
+        .await;
 }
 
-fn write_nfc(name: &str) -> impl Reply {
+fn write_nfc(set: &str, name: &str) -> impl Reply {
     use warp::http::StatusCode;
     let public = PathBuf::from("public");
-    let path = public.join("villagers").join(name).with_extension("bin");
+    let path = public
+        .join("amiibo")
+        .join(set)
+        .join(name.replace("%20", " "))
+        .with_extension("bin");
+    println!("Attempting to write {}", path.display());
     if !path.exists() {
         return response(&Response::NotFound, StatusCode::NOT_FOUND);
     }

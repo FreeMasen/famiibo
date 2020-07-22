@@ -13,7 +13,6 @@
         /** @type {HTMLSelectElement} */
         DAY: document.getElementById('search-day'),
     });
-    const MESSAGE = document.getElementById('message');
     const CURRENT_SEARCH = {
         name: null,
         gender: null,
@@ -198,18 +197,18 @@
         let row = btn.parentElement.parentElement.parentElement;
         let name = row.dataset.name;
         try {
-            let reply = await fetch(`/write/${name}`, {
+            let reply = await fetch(`/write/acnh/${name}`, {
                 method: 'POST',
             });
             if (reply.status === 200) {
-                set_message(`Successfully wrote amiibo for ${name} to NFC chip`);
+                window.set_message(`Successfully wrote amiibo for ${name} to NFC chip`);
             } else {
-                set_message(`Failed to write amiibo for ${name}`);
+                window.set_message(`Failed to write amiibo for ${name}`, true);
                 let body = await reply.json();
                 console.error(body);
             }
         } catch (err) {
-            set_message(`Failed to write amiibo for ${name}`);
+            window.set_message(`Failed to write amiibo for ${name}`, true);
             console.error(err);
         } finally {
             set_all_buttons_disabled(false);
@@ -228,17 +227,7 @@
             }
         }
     }
-    function set_message(msg, err) {
-        MESSAGE.innerText = msg;
-        if (err) {
-            MESSAGE.classList.add('error');
-        }
-        setTimeout(clear_message, 8 * 1000);
-    }
-    function clear_message() {
-        MESSAGE.classList.remove('error');
-        MESSAGE.innerText = '';
-    }
+    
     (function () {
         SEARCH_ELEMENTS.NAME.addEventListener('input', search_element_change);
         SEARCH_ELEMENTS.GENDER.addEventListener('change', search_element_change);

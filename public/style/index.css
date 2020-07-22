@@ -1,0 +1,42 @@
+#amiibo-set-list {
+    list-style: none;
+    width: 500px;
+    margin: auto;
+}
+
+.amiibo-set {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+}
+.amiibo-set + .amiibo-set {
+    margin-top: 5px;
+}
+
+.amiibo-set:active {
+    box-shadow: 0;
+    transform: translate(1px, 1px);
+}
+
+.amiibo-link {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    font-size: 24pt;
+    text-decoration: none;
+    color: black;
+}
+
+.amiibo-image {
+    width: 150px;
+    margin: 5px;
+}
+
+.game-title {
+    width: calc(100% - 160px);
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}

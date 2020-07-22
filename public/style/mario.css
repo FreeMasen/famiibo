@@ -1,0 +1,40 @@
+#amiibo-list {
+    list-style: none;
+    width: 500px;
+    margin: auto;
+}
+
+.amiibo-list-entry {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: burlywood;
+    color: white;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+}
+
+.amiibo-list-entry + .amiibo-list-entry {
+    margin-top: 5px;
+}
+
+.amiibo-picture {
+    width: 150px;
+}
+
+.write-button {
+    margin-right: 5px;
+    height: 50px;
+    font-size: 16pt;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    color: white;
+    background-color: teal;
+}
+
+.write-button:active {
+    transform: translate(1px 1px);
+    box-shadow: 0;
+}

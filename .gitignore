@@ -1,11 +1,5 @@
+
 /target
-
-
-#Added by cargo
-#
-#already existing elements were commented out
-
-#/target
 /Amiibo Bin Dump
 /node_modules
 /villagers
@@ -20,5 +14,7 @@ Villager list (New Horizons) | Animal Crossing Wiki | Fandom_files
 /index.html
 /images
 /public/images/*
-/public/villagers/*
-/public/key_retail.bin
+**/*.bin
+**/.DS_Store
+*.txt
+amiibo_images
