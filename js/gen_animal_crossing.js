@@ -152,9 +152,16 @@ async function generate_page(base_path) {
     await fs.writeFile(path.join(dir, 'index.html'), html);
 }
 
-function row_for_villager(villager) {
+async function row_for_villager(villager) {
     let gender = villager.gender === '♂' ? 'Male' : 'Female';
     const { month, day } = get_birthday(villager.birthday);
+    let btn_class = 'write-button';
+    try {
+        await fs.access(path.join('public', 'amiibo', 'acnh', `${villager.name}.bin`));
+    } catch (e) {
+        console.error('cannot access amiibo bin file', e);
+        btn_class = ' disabled';
+    }
     return `<tr
         class="villager-row"
         data-name="${villager.name}"
@@ -167,7 +174,7 @@ function row_for_villager(villager) {
         <div>
             <img src="${villager.image_url}" class="villager-picture" />
             <span class="villager-name">${villager.name}</span>
-            <button data-url="write/acnh/${villager.name}" class="write-button">Write</button>
+            <button data-url="write/acnh/${villager.name}" class="${btn_class}">Write</button>
         </div>
     </td>
     <td align="center" class="cell-gender">${gender}</td>
