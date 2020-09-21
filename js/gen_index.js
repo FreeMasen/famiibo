@@ -6,6 +6,7 @@ const NAMES = Object.freeze({
     acnh:  'Animal Crossing',
     zelda: 'The Legend of Zelda',
     mario: 'Super Mario Brothers',
+    'fire-emblem': 'Fire Emblem',
 });
 
 let html = `${prefix.html(['style/index.css'])}

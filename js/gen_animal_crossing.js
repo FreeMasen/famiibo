@@ -2,7 +2,7 @@ const fs = require('fs').promises;
 const path = require('path');
 const prefix = require('./prefix.js');
 
-let html = `${prefix.html(['style/acnh.css'])}
+let html = `${prefix.html(['style/acnh.css'], 'Animal Crossing')}
         <table>
             <thead>
                 <tr>
@@ -159,7 +159,7 @@ async function row_for_villager(villager) {
     try {
         await fs.access(path.join('public', 'amiibo', 'acnh', `${villager.name}.bin`));
     } catch (e) {
-        console.error('cannot access amiibo bin file', e);
+        console.error('cannot access amiibo bin file', e.message);
         btn_class = ' disabled';
     }
     return `<tr

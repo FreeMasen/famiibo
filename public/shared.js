@@ -22,8 +22,10 @@
             if (r.status === 200) {
                 return r.json();
             } else {
-                set_message('Failed to write amiibo', true);
-                console.error(r)
+                return r.text().then(text => {
+                    console.error('error:', text);
+                    throw new Error(text);
+                });
             }
         })
         .then(body => {

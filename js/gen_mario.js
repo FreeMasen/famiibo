@@ -2,7 +2,7 @@ const fs = require('fs').promises;
 const path = require('path');
 const prefix = require('./prefix.js');
 
-let html = `${prefix.html(['style/mario.css'])}
+let html = `${prefix.html(['style/mario.css'], 'Mario')}
     <ul id="amiibo-list">`;
 
 module.exports.generate_page = async function (base) {

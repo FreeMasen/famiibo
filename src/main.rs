@@ -34,7 +34,7 @@ fn write_nfc(set: &str, name: &str) -> impl Reply {
         Ok(child) => child,
         Err(e) => {
             return response(
-                &Response::Spawn(format!("{}", e)),
+                &Response::Spawn(format!("error executing pimiibo: {}", e)),
                 StatusCode::INTERNAL_SERVER_ERROR,
             )
         }

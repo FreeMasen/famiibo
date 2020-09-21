@@ -1,4 +1,4 @@
-module.exports.html = function (css_list) {
+module.exports.html = function (css_list, title) {
     return `<!DOCTYPE html>
     <html>
         <head>
@@ -6,7 +6,7 @@ module.exports.html = function (css_list) {
             <meta charset="utf-8" />
             <link rel="stylesheet" href="style.css" type="text/css" />
             ${css_list.map(name => `<link rel="stylesheet" text="text/css" href="${name}" />`).join('\n')}
-            <title>Famiibo - Animal Crossing</title>
+            <title>Famiibo${title  ? ' - ' + title : ''}</title>
         </head>
         <body>
             <div id="message">
