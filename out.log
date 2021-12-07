@@ -1,0 +1,464 @@
+    Finished dev [unoptimized + debuginfo] target(s) in 0.03s
+     Running `target/debug/amiibo`
+ INFO  amiibo > 127.0.0.1:34148 "GET /ac-misc HTTP/1.1" 304 "http://0.0.0.0:8080/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 1.526644ms
+ INFO  amiibo > 127.0.0.1:34148 "GET /shared.js HTTP/1.1" 200 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 1.034952ms
+ INFO  amiibo > 127.0.0.1:34150 "GET /mario.js HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 254.43µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/001%20-%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 851.389µs
+ INFO  amiibo > 127.0.0.1:34148 "GET /images/ac-misc/002%20-%20Tom%20Nook.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 427.546µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/003%20-%20DJ%20KK.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 560.259µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/004%20-%20Sable.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 277.523µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/006%20-%20Resetti.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 758.75µs
+ INFO  amiibo > 127.0.0.1:34148 "GET /images/ac-misc/007%20-%20Joan.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 246.437µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/005%20-%20Kappn.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 761.252µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/008%20-%20Timmy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 339.348µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/009%20-%20Digby.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 264.11µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/010%20-%20Pascal.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 251.905µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/011%20-%20Harriet.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 258.806µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/012%20-%20Redd.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 262.261µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/013%20-%20Saharah.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 387.671µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/014%20-%20Luna.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 364.376µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/015%20-%20Tortimer.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 217.428µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/016%20-%20Lyle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 367.976µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/017%20-%20Lottie.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 188.58µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/101%20-%20K.K.%20Slider.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 200.159µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/102%20-%20Reese.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 164.928µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/103%20-%20Kicks.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 188.747µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/104%20-%20Labelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 168.116µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/105%20-%20Copper.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 165.639µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/106%20-%20Booker.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 166.418µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/107%20-%20Katie.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 169.786µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/108%20-%20Tommy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 165.067µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/109%20-%20Porter.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 163.387µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/110%20-%20Leila.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 174.338µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/111%20-%20Shrunk.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 151.108µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/112%20-%20Don%20Resetti.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 122.082µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/113%20-%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 152.306µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/114%20-%20Blanca.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 202.683µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/116%20-%20Chip.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 163.125µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/115%20-%20Nat.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 399.786µs
+ INFO  amiibo > 127.0.0.1:34148 "GET /images/ac-misc/117%20-%20Jack.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 176.814µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/201%20-%20Rover.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 177.694µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/202%20-%20Blathers.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 178.63µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/203%20-%20Tom%20Nook.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 275.353µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/204%20-%20Pelly.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 167.309µs
+ INFO  amiibo > 127.0.0.1:34148 "GET /images/ac-misc/205%20-%20Phyllis.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 238.456µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/206%20-%20Pete.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 206.962µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/207%20-%20Mabel.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 212.285µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/208%20-%20Leif.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 164.028µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/209%20-%20Wendell.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 238.463µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/210%20-%20Cyrus.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 253.67µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/211%20-%20Grams.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 186.493µs
+ INFO  amiibo > 127.0.0.1:34148 "GET /images/ac-misc/212%20-%20Timmy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 169.272µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/213%20-%20Digby.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 388.274µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/214%20-%20Don%20Resetti.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 374.573µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/215%20-%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 224.636µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/216%20-%20Franklin.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 268.595µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/217%20-%20Jingle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 250.555µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/301%20-%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 195.154µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/302%20-%20Brewster.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 258.615µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/303%20-%20Katrina.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 572.13µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/304%20-%20Phineas.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 451.462µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/305%20-%20Celeste.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 528.388µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/306%20-%20Tommy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 270.476µs
+ INFO  amiibo > 127.0.0.1:34148 "GET /images/ac-misc/307%20-%20Gracie.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 239.263µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/308%20-%20Leilani.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 225.776µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/309%20-%20Resetti.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 205.587µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/312%20-%20Shrunk.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 512.661µs
+ INFO  amiibo > 127.0.0.1:34154 "GET /images/ac-misc/313%20-%20Pave.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 333.061µs
+ INFO  amiibo > 127.0.0.1:34156 "GET /images/ac-misc/311%20-%20Lottie.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 468.187µs
+ INFO  amiibo > 127.0.0.1:34158 "GET /images/ac-misc/310%20-%20Timmy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 482.344µs
+ INFO  amiibo > 127.0.0.1:34148 "GET /images/ac-misc/314%20-%20Gulliver.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 299.947µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/315%20-%20Redd.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 273.111µs
+ INFO  amiibo > 127.0.0.1:34158 "GET /images/ac-misc/402%20-%20Timmy%20and%20Tommy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 190.234µs
+ INFO  amiibo > 127.0.0.1:34154 "GET /images/ac-misc/404%20-%20Orville.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 200.517µs
+ INFO  amiibo > 127.0.0.1:34148 "GET /images/ac-misc/316%20-%20Zipper.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 329.62µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/401%20-%20Tom%20Nook.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 237.446µs
+ INFO  amiibo > 127.0.0.1:34156 "GET /images/ac-misc/403%20-%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 271.411µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/405%20-%20Wilbur.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 393.925µs
+ INFO  amiibo > 127.0.0.1:34148 "GET /images/ac-misc/407%20-%20Celeste.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 355.417µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/408%20-%20Mabel.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 278.064µs
+ INFO  amiibo > 127.0.0.1:34156 "GET /images/ac-misc/409%20-%20Sable.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 269.922µs
+ INFO  amiibo > 127.0.0.1:34158 "GET /images/ac-misc/406%20-%20Blathers.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 356.221µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/411%20-%20K.K.%20Slider.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 210.289µs
+ INFO  amiibo > 127.0.0.1:34154 "GET /images/ac-misc/410%20-%20Label.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 832.118µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/413%20-%20Flick.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 236.177µs
+ INFO  amiibo > 127.0.0.1:34148 "GET /images/ac-misc/412%20-%20C.J..png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 268.389µs
+ INFO  amiibo > 127.0.0.1:34158 "GET /images/ac-misc/414%20-%20Daisy%20Mae.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 228.625µs
+ INFO  amiibo > 127.0.0.1:34156 "GET /images/ac-misc/415%20-%20Kicks.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 301.861µs
+ INFO  amiibo > 127.0.0.1:34154 "GET /images/ac-misc/417%20-%20Harvey.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 189.729µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/416%20-%20Saharah.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 170.517µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/418%20-%20Gulliver.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 189.071µs
+ INFO  amiibo > 127.0.0.1:34158 "GET /images/ac-misc/419%20-%20Wisp.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 197.154µs
+ INFO  amiibo > 127.0.0.1:34156 "GET /images/ac-misc/420%20-%20Lottie.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 349.221µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/421%20-%20Niko.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 323.491µs
+ INFO  amiibo > 127.0.0.1:34154 "GET /images/ac-misc/422%20-%20Wardell.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 631.482µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/423%20-%20Tom%20Nook.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 311.775µs
+ INFO  amiibo > 127.0.0.1:34156 "GET /images/ac-misc/Blathers.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 458.641µs
+ INFO  amiibo > 127.0.0.1:34158 "GET /images/ac-misc/424%20-%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 782.651µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/Celeste.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 357.78µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/Chelsea.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 211.517µs
+ INFO  amiibo > 127.0.0.1:34154 "GET /images/ac-misc/Cyrus.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 209.997µs
+ INFO  amiibo > 127.0.0.1:34156 "GET /images/ac-misc/Digby.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 252.783µs
+ INFO  amiibo > 127.0.0.1:34158 "GET /images/ac-misc/Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 203.166µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/K.K.%20Slider.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 253.169µs
+ INFO  amiibo > 127.0.0.1:34154 "GET /images/ac-misc/Kicks.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 681.143µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/Kappn.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 794.709µs
+ INFO  amiibo > 127.0.0.1:34156 "GET /images/ac-misc/Lottie.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 1.297401ms
+ INFO  amiibo > 127.0.0.1:34158 "GET /images/ac-misc/Mabel.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 310.533µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/Reese.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 285.9µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /images/ac-misc/Resetti.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 242.786µs
+ INFO  amiibo > 127.0.0.1:34154 "GET /images/ac-misc/Rover.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 200.349µs
+ INFO  amiibo > 127.0.0.1:34156 "GET /images/ac-misc/Summertime%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 147.077µs
+ INFO  amiibo > 127.0.0.1:34158 "GET /images/ac-misc/Timmy%20and%20Tommy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 210.923µs
+ INFO  amiibo > 127.0.0.1:34150 "GET /images/ac-misc/Tom%20Nook.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 161.326µs
+ INFO  amiibo > 127.0.0.1:34152 "GET /exe/ac-misc/001%20-%20Isabelle.bin HTTP/1.1" 200 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 764.213µs
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stderr line!
+ DEBUG amiibo::sse > exited: exit status: 1
+ ERROR amiibo::sse > exit status was error
+ ERROR amiibo::sse > sending error message: Error("non-success exit status: exit status: 1")
+ INFO  amiibo      > 127.0.0.1:34148 "GET /ac-misc HTTP/1.1" 304 "http://0.0.0.0:8080/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 785.319µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /shared.js HTTP/1.1" 200 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 307.084µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /mario.js HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 323.199µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/001%20-%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 515.977µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/002%20-%20Tom%20Nook.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 251.768µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/003%20-%20DJ%20KK.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 230.335µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/004%20-%20Sable.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 189.316µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/005%20-%20Kappn.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 208.454µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/006%20-%20Resetti.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 198.411µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/007%20-%20Joan.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 215.134µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/010%20-%20Pascal.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 3.401035ms
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/011%20-%20Harriet.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 3.236372ms
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/009%20-%20Digby.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 3.840804ms
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/008%20-%20Timmy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 3.889694ms
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/012%20-%20Redd.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 2.676523ms
+ INFO  amiibo      > 127.0.0.1:34148 "GET /images/ac-misc/013%20-%20Saharah.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 2.782263ms
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/101%20-%20K.K.%20Slider.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 330.373µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/014%20-%20Luna.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 1.039189ms
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/015%20-%20Tortimer.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 900.823µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/017%20-%20Lottie.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 789.509µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/016%20-%20Lyle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 952.089µs
+ INFO  amiibo      > 127.0.0.1:34148 "GET /images/ac-misc/102%20-%20Reese.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 316.707µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/103%20-%20Kicks.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 402.92µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/104%20-%20Labelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 2.389418ms
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/108%20-%20Tommy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 1.040968ms
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/105%20-%20Copper.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 2.455457ms
+ INFO  amiibo      > 127.0.0.1:34148 "GET /images/ac-misc/109%20-%20Porter.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 895.104µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/110%20-%20Leila.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 534.095µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/111%20-%20Shrunk.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 216.392µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/112%20-%20Don%20Resetti.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 247.146µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/107%20-%20Katie.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 2.736989ms
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/113%20-%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 620.078µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/114%20-%20Blanca.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 325.69µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/106%20-%20Booker.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 3.493325ms
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/115%20-%20Nat.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 430.365µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/116%20-%20Chip.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 205.551µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/117%20-%20Jack.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 226.468µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/201%20-%20Rover.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 183.766µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/202%20-%20Blathers.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 221.912µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/203%20-%20Tom%20Nook.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 224.581µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/204%20-%20Pelly.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 160.592µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/205%20-%20Phyllis.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 223.925µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/206%20-%20Pete.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 202.855µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/207%20-%20Mabel.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 203.724µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/208%20-%20Leif.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 187.749µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/209%20-%20Wendell.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 194.724µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/210%20-%20Cyrus.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 194.002µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/211%20-%20Grams.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 203.681µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/212%20-%20Timmy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 234.863µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/213%20-%20Digby.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 175.052µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/214%20-%20Don%20Resetti.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 176.383µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/215%20-%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 200.277µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/216%20-%20Franklin.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 238.223µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/217%20-%20Jingle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 241.666µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/302%20-%20Brewster.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 326.251µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/303%20-%20Katrina.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 282.97µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/304%20-%20Phineas.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 560.59µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/305%20-%20Celeste.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 578.628µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/306%20-%20Tommy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 587.699µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/307%20-%20Gracie.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 492.752µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/308%20-%20Leilani.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 366.001µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/301%20-%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 3.871705ms
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/309%20-%20Resetti.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 2.909772ms
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/312%20-%20Shrunk.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 2.126874ms
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/311%20-%20Lottie.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 2.49623ms
+ INFO  amiibo      > 127.0.0.1:34148 "GET /images/ac-misc/314%20-%20Gulliver.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 1.803797ms
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/310%20-%20Timmy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 2.955238ms
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/313%20-%20Pave.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 2.740231ms
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/315%20-%20Redd.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 661.678µs
+ INFO  amiibo      > 127.0.0.1:34148 "GET /images/ac-misc/401%20-%20Tom%20Nook.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 381.043µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/403%20-%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 576.162µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/402%20-%20Timmy%20and%20Tommy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 419.455µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/316%20-%20Zipper.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 1.045946ms
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/409%20-%20Sable.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 506.411µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/408%20-%20Mabel.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 517.29µs
+ INFO  amiibo      > 127.0.0.1:34148 "GET /images/ac-misc/404%20-%20Orville.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 407.776µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/405%20-%20Wilbur.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 350.498µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/407%20-%20Celeste.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 938.554µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/406%20-%20Blathers.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 538.774µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/411%20-%20K.K.%20Slider.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 776.299µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/410%20-%20Label.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 1.435634ms
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/412%20-%20C.J..png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 854.361µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/413%20-%20Flick.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 589.33µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/414%20-%20Daisy%20Mae.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 429.611µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/415%20-%20Kicks.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 775.013µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/416%20-%20Saharah.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 779.12µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/417%20-%20Harvey.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 639.265µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/418%20-%20Gulliver.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 384.961µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/419%20-%20Wisp.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 212.706µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/420%20-%20Lottie.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 458.941µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/421%20-%20Niko.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 387.266µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/423%20-%20Tom%20Nook.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 390.302µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/422%20-%20Wardell.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 494.484µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/424%20-%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 616.943µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/Blathers.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 650.324µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/Celeste.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 446.472µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/Chelsea.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 421.801µs
+ INFO  amiibo      > 127.0.0.1:34148 "GET /images/ac-misc/Digby.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 438.354µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 320.004µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/Cyrus.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 563.174µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/K.K.%20Slider.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 228.63µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/Kappn.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 272.921µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/Kicks.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 288.341µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/Lottie.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 340.038µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/Reese.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 288.756µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/Mabel.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 780.432µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/Timmy%20and%20Tommy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 2.836506ms
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/Tom%20Nook.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 3.425186ms
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/Resetti.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 3.308813ms
+ INFO  amiibo      > 127.0.0.1:34148 "GET /images/ac-misc/Summertime%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 3.120904ms
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/Rover.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 861.802µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /exe/ac-misc/001%20-%20Isabelle.bin HTTP/1.1" 200 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 359.689µs
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > exited: exit status: 1
+ ERROR amiibo::sse > exit status was error
+ ERROR amiibo::sse > sending error message: Error("non-success exit status: exit status: 1")
+ INFO  amiibo      > 127.0.0.1:34148 "GET /ac-misc HTTP/1.1" 304 "http://0.0.0.0:8080/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 645.702µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /mario.js HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 1.241234ms
+ INFO  amiibo      > 127.0.0.1:34152 "GET /shared.js HTTP/1.1" 200 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 2.099455ms
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/001%20-%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 1.251686ms
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/002%20-%20Tom%20Nook.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 346.893µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/003%20-%20DJ%20KK.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 281.673µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/004%20-%20Sable.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 275.562µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/005%20-%20Kappn.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 414.296µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/006%20-%20Resetti.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 178.645µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/007%20-%20Joan.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 498.735µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/008%20-%20Timmy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 288.31µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/009%20-%20Digby.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 521.401µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/011%20-%20Harriet.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 217.506µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/010%20-%20Pascal.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 870.735µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/013%20-%20Saharah.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 499.138µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/012%20-%20Redd.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 718.947µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/014%20-%20Luna.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 439.928µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/015%20-%20Tortimer.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 258.539µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/016%20-%20Lyle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 213.375µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/017%20-%20Lottie.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 207.667µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/101%20-%20K.K.%20Slider.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 233.217µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/102%20-%20Reese.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 191.071µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/103%20-%20Kicks.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 222.679µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/104%20-%20Labelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 199.467µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/105%20-%20Copper.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 201.884µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/106%20-%20Booker.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 254.084µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/107%20-%20Katie.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 173.537µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/108%20-%20Tommy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 214.145µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/109%20-%20Porter.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 222.89µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/110%20-%20Leila.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 190.564µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/111%20-%20Shrunk.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 217.393µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/112%20-%20Don%20Resetti.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 206.205µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/113%20-%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 192.423µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/114%20-%20Blanca.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 169.449µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/115%20-%20Nat.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 193.297µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/116%20-%20Chip.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 166.791µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/117%20-%20Jack.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 204.185µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/201%20-%20Rover.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 168.826µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/202%20-%20Blathers.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 192.538µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/203%20-%20Tom%20Nook.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 275.444µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/204%20-%20Pelly.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 195.554µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/205%20-%20Phyllis.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 190.929µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/206%20-%20Pete.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 149.22µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/207%20-%20Mabel.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 159.142µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/208%20-%20Leif.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 192.444µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/209%20-%20Wendell.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 176.223µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/210%20-%20Cyrus.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 176.709µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/211%20-%20Grams.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 169.66µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/212%20-%20Timmy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 194.987µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/213%20-%20Digby.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 201.38µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/214%20-%20Don%20Resetti.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 239.877µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/215%20-%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 212.954µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/216%20-%20Franklin.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 221.523µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/217%20-%20Jingle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 204.118µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/301%20-%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 208.953µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/302%20-%20Brewster.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 211.152µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/304%20-%20Phineas.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 305.65µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/305%20-%20Celeste.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 218.477µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/303%20-%20Katrina.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 756.134µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/306%20-%20Tommy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 263.067µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/307%20-%20Gracie.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 187.258µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/308%20-%20Leilani.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 313.143µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/309%20-%20Resetti.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 440.713µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/310%20-%20Timmy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 258.504µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/311%20-%20Lottie.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 227.164µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/312%20-%20Shrunk.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 211.636µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/313%20-%20Pave.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 233.793µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/314%20-%20Gulliver.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 204.732µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/315%20-%20Redd.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 211.056µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/316%20-%20Zipper.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 188.46µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/401%20-%20Tom%20Nook.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 156.303µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/402%20-%20Timmy%20and%20Tommy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 261.517µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/403%20-%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 169.041µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/404%20-%20Orville.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 168.893µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/405%20-%20Wilbur.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 180.355µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/406%20-%20Blathers.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 248.817µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/407%20-%20Celeste.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 225.187µs
+ INFO  amiibo      > 127.0.0.1:34148 "GET /images/ac-misc/411%20-%20K.K.%20Slider.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 425.036µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/410%20-%20Label.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 383.414µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/409%20-%20Sable.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 463.276µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/408%20-%20Mabel.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 637.1µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/412%20-%20C.J..png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 320.237µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/413%20-%20Flick.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 348.824µs
+ INFO  amiibo      > 127.0.0.1:34148 "GET /images/ac-misc/414%20-%20Daisy%20Mae.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 438.168µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/417%20-%20Harvey.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 228.117µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/415%20-%20Kicks.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 368.52µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/418%20-%20Gulliver.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 223.509µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/419%20-%20Wisp.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 204.038µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/416%20-%20Saharah.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 933.454µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/421%20-%20Niko.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 211.982µs
+ INFO  amiibo      > 127.0.0.1:34148 "GET /images/ac-misc/420%20-%20Lottie.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 202.899µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/422%20-%20Wardell.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 356.349µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/424%20-%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 310.019µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/Blathers.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 315.476µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/Celeste.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 271.979µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/423%20-%20Tom%20Nook.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 281.126µs
+ INFO  amiibo      > 127.0.0.1:34148 "GET /images/ac-misc/Chelsea.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 242.947µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/K.K.%20Slider.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 330.419µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 227.607µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/Cyrus.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 291.221µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/Kappn.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 235.247µs
+ INFO  amiibo      > 127.0.0.1:34148 "GET /images/ac-misc/Kicks.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 263.284µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/Digby.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 459.297µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/Mabel.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 344.525µs
+ INFO  amiibo      > 127.0.0.1:34148 "GET /images/ac-misc/Lottie.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 423.95µs
+ INFO  amiibo      > 127.0.0.1:34158 "GET /images/ac-misc/Resetti.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 407.909µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /images/ac-misc/Reese.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 426.147µs
+ INFO  amiibo      > 127.0.0.1:34156 "GET /images/ac-misc/Rover.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 450.437µs
+ INFO  amiibo      > 127.0.0.1:34154 "GET /images/ac-misc/Summertime%20Isabelle.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 515.775µs
+ INFO  amiibo      > 127.0.0.1:34150 "GET /images/ac-misc/Timmy%20and%20Tommy.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 381.276µs
+ INFO  amiibo      > 127.0.0.1:34148 "GET /images/ac-misc/Tom%20Nook.png HTTP/1.1" 304 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 255.467µs
+ INFO  amiibo      > 127.0.0.1:34152 "GET /exe/ac-misc/001%20-%20Isabelle.bin HTTP/1.1" 200 "http://0.0.0.0:8080/ac-misc" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0" 794.446µs
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > no exit status yet, trying stream
+ DEBUG amiibo::sse > loop top
+ DEBUG amiibo::sse > stdout line!
+ DEBUG amiibo::sse > exited: exit status: 1
+ ERROR amiibo::sse > exit status was error
+ ERROR amiibo::sse > sending error message: Error("non-success exit status: exit status: 1")

@@ -2,7 +2,7 @@ const fs = require('fs').promises;
 const path = require('path');
 const prefix = require('./prefix.js');
 
-let html = `${prefix.html(['style/acnh.css'], 'Animal Crossing')}
+let html = `${prefix.html(['style/acnh.css'], 'Animal Crossing Villagers')}
         <table>
             <thead>
                 <tr>
@@ -136,7 +136,7 @@ async function generate_page(base_path) {
     const json = await fs.readFile(path.join(__dirname, 'villager_list.json'), 'utf-8');
     const villagers = JSON.parse(json);
     for (const villager of villagers) {
-        html += row_for_villager(villager)
+        html += await row_for_villager(villager)
     }
     html += `
             </tbody>

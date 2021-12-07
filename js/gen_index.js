@@ -3,10 +3,12 @@ const path = require('path');
 const prefix = require('./prefix');
 
 const NAMES = Object.freeze({
-    acnh:  'Animal Crossing',
+    acnh:  'Animal Crossing Villagers',
     zelda: 'The Legend of Zelda',
     mario: 'Super Mario Brothers',
     'fire-emblem': 'Fire Emblem',
+    'ac-misc': 'Animal Crossing',
+    metroid: 'Metroid',
 });
 
 let html = `${prefix.html(['style/index.css'])}

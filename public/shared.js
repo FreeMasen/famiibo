@@ -36,6 +36,62 @@
             set_message('Failed to write amiibo', true);
         });
     }
+    function handle_message(msg) {
+        let info
+        try {
+            info = JSON.parse(msg);
+        } catch (e) {
+            return console.error('error parsing json', msg, e);
+        }
+        switch (info.kind) {
+            case "success": {
+                set_message("Complete!", false);
+                es.close();
+                break;
+            }
+            case "error": {
+                set_message(`Error: ${info.data}`, true);
+                es.close();
+                break;
+            }
+            case "stdOut": {
+                set_message(info.data, false);
+                break;
+            }
+            case "stdErr": {
+                set_message(info.data, true);
+                break;
+            }
+            case "ping": {
+                set_message("...", false);
+            }
+            default: {
+                set_message(`${info.kind}: ${info.data | ''}`);
+            }
+        }
+    }
+    function write_amiibo2(ev) {
+        let es = new EventSource(ev.currentTarget.dataset.url.replace(/\/?write\//, '/exe/'));
+        es.onerror = function(ev) {
+            set_message('Error on connection');
+            es.close();
+            console.error(ev);
+        }
+        es.onmessage = function(ev) {
+            handle_message(ev.data);
+        }
+        es.onopen = function() {
+            set_message('starting write!');
+        }
+        es.addEventListener('complete', function() {
+            console.log('closing...');
+            es.close();
+        });
+        es.addEventListener('timeout', function() {
+            set_message('timedout', true);
+            es.close();
+        });
+    }
     window.set_message = set_message;
-    window.write_amiibo = write_amiibo;
+    window.write_amiibo = write_amiibo2;
 })();

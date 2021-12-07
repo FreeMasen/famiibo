@@ -3,6 +3,8 @@ use std::path::PathBuf;
 use std::process::{Command, Output};
 use warp::{Filter, Reply};
 
+mod sse;
+
 #[tokio::main]
 async fn main() {
     pretty_env_logger::init();
@@ -10,8 +12,18 @@ async fn main() {
     let execute = warp::post()
         .and(warp::path!("write" / String / String))
         .map(|set: String, bin: String| write_nfc(&set, &bin));
-    warp::serve(files.or(execute).with(warp::log("amiibo")))
-        .run(([0, 0, 0, 0], 80))
+    let execute2 = warp::get()
+        .and(warp::path!("exe" / String / String))
+        .map(|set: String, name: String| {
+            warp::sse::reply(warp::sse::keep_alive().stream(sse::write_nfc(&set, &name)))
+        });
+    let port = if let Ok(port) = std::env::var("FAMIIBO_PORT") {
+        port.parse().unwrap_or(80u16)
+    } else {
+        80u16
+    };
+    warp::serve(files.or(execute).or(execute2).with(warp::log("amiibo")))
+        .run(([0, 0, 0, 0], port))
         .await;
 }
 
