@@ -1,0 +1,14 @@
+#! /bin/bash
+if [[ "$SLEEP_S" == "" ]]
+then
+    export SLEEP_S="0.5"
+else
+    export SLEEP_S=$SLEEP_S
+fi
+if [[ "$2"  == *failure.bin ]]
+then
+    /bin/bash failure.sh
+    exit $?
+fi
+/bin/bash success.sh;
+sleep 5

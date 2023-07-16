@@ -14,6 +14,8 @@ Villager list (New Horizons) | Animal Crossing Wiki | Fandom_files
 /index.html
 /images
 /public/images/*
+/public/amiibo/*
+!/public/amiibo/test
 **/*.bin
 **/.DS_Store
 *.txt
