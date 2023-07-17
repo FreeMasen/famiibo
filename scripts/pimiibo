@@ -8,7 +8,8 @@ fi
 if [[ "$2"  == *failure.bin ]]
 then
     /bin/bash failure.sh
+    sudo wait
     exit $?
 fi
 /bin/bash success.sh;
-sleep 5
+wait

@@ -60,7 +60,7 @@
                 }
             }
         };
-        see.onclose = (ev) => {
+        sse.onclose = (ev) => {
             console.error("close:", ev)
             return false;
         };
