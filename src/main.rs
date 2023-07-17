@@ -15,12 +15,17 @@ static COUNTER: AtomicU64 = AtomicU64::new(0);
 #[tokio::main]
 async fn main() {
     pretty_env_logger::init();
+    let port = std::env::var("FAMIIBO_PORT")
+        .map_err(|_| ())
+        .and_then(|v| {
+        v.parse::<u16>().map_err(|_| ())
+    }).unwrap_or(80u16);
     let files = warp::fs::dir("public");
     let execute = warp::get()
         .and(warp::path!("write" / String / String))
         .then(|set: String, bin: String| write_nfc(set, bin));
     warp::serve(files.or(execute).with(warp::log("amiibo")))
-        .run(([0, 0, 0, 0], 8080))
+        .run(([0, 0, 0, 0], port))
         .await;
 }
 
