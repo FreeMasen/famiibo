@@ -4,6 +4,12 @@ html, body {
   padding: 0;
 }
 
+#return-home {
+  color: black;
+  text-decoration: none;
+  
+}
+
 #message {
   width: 100%;
   text-align: center;

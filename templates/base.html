@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <!-- Enable responsiveness on mobile devices-->
+    <!-- viewport-fit=cover is to support iPhone X rounded corners and notch in landscape-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+
+    <title>Famiibo{% if game %} - {{game.game}} {% endif %}</title>
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+    
+    {% block extra_head %}
+    {% endblock extra_head %}
+</head>
+
+<body>
+    <h1><a id="return-home" href="/games">Famiibo</a></h1>
+    <div id="message"></div>
+    <div class="content container">
+        {% block content %}
+        
+        {% endblock content %}
+    </div>
+</body>
+
+</html>

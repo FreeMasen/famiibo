@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>{{game.game}}</h2>
+<ul id="amiibo-list">
+    {% for ch in game.basic %}
+    <li class="amiibo-list-entry">
+        <img class="amiibo-picture" />
+        <span class="amiibo-name">{{ch.name}}</span>
+        <button data-url="{{ch.url}}" class="write-button">Write</button>
+    </li>
+    {% endfor %}
+    {% for category, characters in game.categories %}
+    <li class="amiibo-sub-category">
+        <h3>{{category}}</h3>
+        <ul>
+            {% for ch in characters %}
+                <li class="amiibo-list-entry">
+                    <img class="amiibo-picture" />
+                    <span class="amiibo-name">{{ch.name}}</span>
+                    <button data-url="{{ch.url}}" class="write-button">Write</button>
+                </li>
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>
+<link rel="stylesheet" text="text/css" href="/style/mario.css" />
+<script src="/shared.js" type="text/javascript"></script>
+{% endblock content %}

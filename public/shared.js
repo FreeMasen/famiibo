@@ -70,4 +70,8 @@
     }
     window.set_message = set_message;
     window.write_amiibo = write_amiibo;
+    let buttons = Array.from(document.querySelectorAll(".write-button"));
+    for (let b of buttons) {
+        b.addEventListener("click", write_amiibo);
+    }
 })();

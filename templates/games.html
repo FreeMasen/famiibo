@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<ul id="amiibo-set-list">
+    {% for game in games %}
+        <li class="amiibo-set">
+            <img class="amiibo-image">
+            <a id="amiibo-link" href="{{ game.url | urlencode }}">
+               <span class="game-title">{{game.name}}</span>
+            </a>
+        </li>
+    {% endfor %}
+</ul>
+<link rel="stylesheet" href="/style/index.css" type="text/css" />
+{% endblock content %}
